@@ -11,9 +11,13 @@
 	<groupId>com.ecommerce</groupId>
 	<artifactId>ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>ecommerce</name>
 	<description>Demo project for Spring Boot</description>
-    <properties>
+	<modules>
+		<module>ecommerce_common</module>
+	</modules>
+	<properties>
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
